@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWITCH BUTTON</title>
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+
+<body>
+  <label for="inp">
+    <input type="checkbox" id="inp">
+    <div class="slider"></div>
+  </label>
+
+  <script>
+    let inp = document.querySelector("#inp");
+
+    inp.addEventListener("click" , function(){
+      document.body.classList.toggle("dark-theme");
+    })
+
+
+  </script>
+</body>
+</html>
